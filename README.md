@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Dockerfiles: using `ubuntu:latest` and forgetting to `COPY` the application code. The `Dockerfile` showcases the incorrect approach, leading to a non-functional image.  The `Dockerfile-fixed` provides the corrected version.
